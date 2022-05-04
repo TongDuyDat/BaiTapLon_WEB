@@ -250,7 +250,6 @@
                 margin-right: 5%;
             }
             
-<<<<<<< HEAD
             .khuyen_mai_image {
                 position: relative;
                 margin-bottom: 5px;
@@ -271,8 +270,6 @@
                 overflow: hidden;
             }
             
-=======
->>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
             .Sp_noi_bats {
                 display: flex;
                 flex-direction: row;
@@ -280,7 +277,6 @@
                 justify-content: space-between;
             }
             
-<<<<<<< HEAD
             .container_item_khuyen_mai {
                 text-align: justify;
             }
@@ -369,8 +365,6 @@
                 flex-direction: row;
             }
             
-=======
->>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
             @keyframes line-left {
                 from {
                     transform: translateX(100%);

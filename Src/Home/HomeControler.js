@@ -72,11 +72,7 @@ window.addEventListener("load", () => {
             .then(response => response.json())
             .then((json) => {
 
-<<<<<<< HEAD
                 for (i = 0; i < 25; i++) {
-=======
-                for (i = 0; i < 15; i++) {
->>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
                     danhgia = `<div class="info_price">
                     <div>
                         <span><br>${json[i].price}</i></span>
@@ -92,15 +88,9 @@ window.addEventListener("load", () => {
                     </div>
                 </div>`;
                     if (i % 2 == 0) {
-<<<<<<< HEAD
                         s += `<li class="item_banh_tuoi"> <div ><div class = "container_item_banh_tuoi"> <a href = "${json[i].link}"> <div><img src = "${json[i].image}"alt = " "></div> <div class = "text_icon"> <span>${json[i].name}</span> </div> </a> ${danhgia}</div> </div></li>`;
                     } else {
                         s += `<li class="item_banh_tuoi"> <div><div class = "container_item_banh_tuoi"> <a href = "${json[i].link}"> <div> <img src = "${json[i].image}"alt = " "> </div> <div class = "text_icon"> <span>${json[i].name}</span>  </div> </a>${danhgia} </div> </div></li>`;
-=======
-                        s += `<li class="item_banh_tuoi"> <div data-aos="fade-up-left"><div class = "container_item_banh_tuoi"> <a href = "${json[i].link}"> <div> <img src = "${json[i].image}"alt = " "> </div> <div class = "text_icon"> <span>${json[i].name}</span> </div> </a> ${danhgia}</div> </div></li>`;
-                    } else {
-                        s += `<li class="item_banh_tuoi"> <div data-aos="fade-up-right"><div class = "container_item_banh_tuoi"> <a href = "${json[i].link}"> <div> <img src = "${json[i].image}"alt = " "> </div> <div class = "text_icon"> <span>${json[i].name}</span>  </div> </a>${danhgia} </div> </div></li>`;
->>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
                     }
                 }
                 Banhs.innerHTML += s
