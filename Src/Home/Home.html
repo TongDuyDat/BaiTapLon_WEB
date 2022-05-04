@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAKERY COFEE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="HomeStyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="HomeControler.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/splide.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../../Data/Image/logo.png" alt="" width="50px" height="50px">
+                    <b> BAKERY COFEE </b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">KHUYẾN MÃI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <div class="itemTabbarcontainer">
+                            <div class="itemTabbar">
+                                <a class="navbar-brand" href="#">
+                                    <img width="30px" height="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHVUh1WCgY5lNRWOiRJKT21zDw9pzFXYPi8w&usqp=CAU" alt="">
+                                </a>
+                                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button> -->
+                            </div>
+                            <div class="itemTabbar">
+                                <a class="navbar-brand" href="#">
+                                    <img width="30px" height="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVicAK5YBzDe_ntetBsAcQsgWIlMk2ZYcMgA&usqp=CAU" alt="">
+                                </a>
+                                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button> -->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <section name="cap">
+            <div>
+                <div name="captions">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://blog.cheryls.com/wp-content/uploads/2021/09/Coffee-Cookies-Hero-1024x576.jpg" class="d-block w-100 image_in_slide" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F08%2F20%2FGettyImages-1165807395-2000.jpg" class="d-block w-100 image_in_slide" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F08%2F20%2FGettyImages-1165807395-2000.jpg" class="d-block w-100 image_in_slide" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section name="qicklink">
+            <div class="container_qicklink">
+                <div class="qicklink_icon">
+                    <div class="qick_link_icon_flex">
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="qick_link_item">
+                            <a href="#">
+                                <div class="icon_qick_link">
+                                    <img class="icon" src="../../Data/Icon/icon_coffee.png" alt="" srcset="">
+                                </div>
+                                <div class="text_icon">
+                                    <span>Cà phê</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="banh_tuoi_moi_ngay">
+            <div data-aos="fade-right" data-aos-duration="500">
+                <div class="banh_tuoi_moi_ngay_container">
+                    <div class="haeder_banh_tuoi_moi_ngay">
+                        <h3>
+                            <a href="#">XU HƯỚNG TÌM KIẾM</a>
+                        </h3>
+                        <div>
+                            <span id="btn_left_slides_banh_tuoi"> <i class="fa fa-angle-left"></i></span>
+                            <span id="btn_right_slides_banh_tuoi"> <i class="fa fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="container_banhtuoi">
+                        <div class="slide_banh_tuoi">
+                            <ul class="list_banh_tuoi" name="slides_banh_tuoi">
+                                <li class="item_banh_tuoi">
+                                    <div class="container_item_banh_tuoi">
+                                        <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                            <div>
+
+                                                <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+
+                                            </div>
+                                            <div class="text_icon">
+                                                <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                            </div>
+                                            <div class="info_price">
+                                                <div>
+                                                    <span><br>Giá: 10.00 đ</i></span>
+                                                    <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="icon_in_item">
+                                                    <div class="like">
+                                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="add">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <div class="container_item_banh_tuoi">
+                                        <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                            <div>
+                                                <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                            </div>
+                                            <div class="text_icon">
+                                                <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                            </div>
+                                            <div class="info_price">
+                                                <div>
+                                                    <span><br>Giá: 10.00 đ</i></span>
+                                                    <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="icon_in_item">
+                                                    <div class="like">
+                                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="add">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <div class="container_item_banh_tuoi">
+                                        <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                            <div>
+                                                <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                            </div>
+                                            <div class="text_icon">
+                                                <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                            </div>
+                                            <div class="info_price">
+                                                <div>
+                                                    <span><br>Giá: 10.00 đ</i></span>
+                                                    <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="icon_in_item">
+                                                    <div class="like">
+                                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="add">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <div class="container_item_banh_tuoi">
+                                        <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                            <div>
+                                                <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                            </div>
+                                            <div class="text_icon">
+                                                <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                            </div>
+                                            <div class="info_price">
+                                                <div>
+                                                    <span><br>Giá: 10.00 đ</i></span>
+                                                    <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="icon_in_item">
+                                                    <div class="like">
+                                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="add">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <div class="container_item_banh_tuoi">
+                                        <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                            <div>
+                                                <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                            </div>
+                                            <div class="text_icon">
+                                                <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                            </div>
+                                            <div class="info_price">
+                                                <div>
+                                                    <span><br>Giá: 10.00 đ</i></span>
+                                                    <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="icon_in_item">
+                                                    <div class="like">
+                                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="add">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+<<<<<<< HEAD
+=======
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <div class="container_item_banh_tuoi">
+                                        <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                            <div>
+                                                <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                            </div>
+                                            <div class="text_icon">
+                                                <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                            </div>
+                                            <div class="info_price">
+                                                <div>
+                                                    <span><br>Giá: 10.00 đ</i></span>
+                                                    <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                </div>
+                                                <div class="icon_in_item">
+                                                    <div class="like">
+                                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="add">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+>>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slide_banh_tuoi">
+                            <ul class="list_banh_tuoi" name="slides_banh_tuoi">
+                                <li class="item_banh_tuoi">
+                                    <a href="# ">
+                                        <div>
+                                            <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                        </div>
+                                        <div class="text_icon">
+                                            <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                            <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                        </div>
+                                        <div class="info_price">
+                                            <div>
+                                                <span><br>Giá: 10.00 đ</i></span>
+                                                <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="icon_in_item">
+                                                <div class="like">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <a href="# ">
+                                        <div>
+                                            <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                        </div>
+                                        <div class="text_icon">
+                                            <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                            <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                        </div>
+                                        <div class="info_price">
+                                            <div>
+                                                <span><br>Giá: 10.00 đ</i></span>
+                                                <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="icon_in_item">
+                                                <div class="like">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <a href="# ">
+                                        <div>
+                                            <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                        </div>
+                                        <div class="text_icon">
+                                            <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                            <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                        </div>
+                                        <div class="info_price">
+                                            <div>
+                                                <span><br>Giá: 10.00 đ</i></span>
+                                                <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="icon_in_item">
+                                                <div class="like">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <a href="# ">
+                                        <div>
+                                            <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                        </div>
+                                        <div class="text_icon">
+                                            <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                            <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                        </div>
+                                        <div class="info_price">
+                                            <div>
+                                                <span><br>Giá: 100.000 đ</i></span>
+                                                <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="icon_in_item">
+                                                <div class="like">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item_banh_tuoi">
+                                    <a href="# ">
+                                        <div>
+                                            <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                        </div>
+                                        <div class="text_icon">
+                                            <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                            <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                        </div>
+                                        <div class="info_price">
+                                            <div>
+                                                <span><br>Giá: 10.00 đ</i></span>
+                                                <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="icon_in_item">
+                                                <div class="like">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <div class="container_do_uong">
+            <div data-aos="fade-left" data-aos-duration="500">
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="haeder_banh_tuoi_moi_ngay">
+                        <h3>
+                            <a href="#">ĐỒ UỐNG</a>
+                        </h3>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="slide_do_uong">
+                                    <ul class="list_banh_tuoi" name="slides_banh_tuoi">
+                                        <li class="item_banh_tuoi">
+                                            <div class="container_item_banh_tuoi">
+                                                <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                                    <div>
+                                                        <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                                    </div>
+                                                    <div class="text_icon">
+                                                        <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                        <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                    </div>
+                                                    <div class="info_price">
+                                                        <div>
+                                                            <span><br>Giá: 10.00 đ</i></span>
+                                                            <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                        </div>
+                                                        <div class="icon_in_item">
+                                                            <div class="like">
+                                                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="add">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <div class="container_item_banh_tuoi">
+                                                <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                                    <div>
+                                                        <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                                    </div>
+                                                    <div class="text_icon">
+                                                        <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                        <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                    </div>
+                                                    <div class="info_price">
+                                                        <div>
+                                                            <span><br>Giá: 10.00 đ</i></span>
+                                                            <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                        </div>
+                                                        <div class="icon_in_item">
+                                                            <div class="like">
+                                                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="add">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <div class="container_item_banh_tuoi">
+                                                <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                                    <div>
+                                                        <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                                    </div>
+                                                    <div class="text_icon">
+                                                        <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                        <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                    </div>
+                                                    <div class="info_price">
+                                                        <div>
+                                                            <span><br>Giá: 10.00 đ</i></span>
+                                                            <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                        </div>
+                                                        <div class="icon_in_item">
+                                                            <div class="like">
+                                                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="add">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <div class="container_item_banh_tuoi">
+                                                <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                                    <div>
+                                                        <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                                    </div>
+                                                    <div class="text_icon">
+                                                        <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                        <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                    </div>
+                                                    <div class="info_price">
+                                                        <div>
+                                                            <span><br>Giá: 10.00 đ</i></span>
+                                                            <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                        </div>
+                                                        <div class="icon_in_item">
+                                                            <div class="like">
+                                                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="add">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <div class="container_item_banh_tuoi">
+                                                <a href="https://anhhoabakery.vn/?gclid=Cj0KCQjw6pOTBhCTARIsAHF23fI5KDwMbkebwTOwaKeq528_cV_PniXzmZSQmDEyeX3wmZmS100ugFsaAlJwEALw_wcB">
+                                                    <div>
+                                                        <img src="https://naidecor.vn/wp-content/uploads/2019/11/banh-macaron-trang-tri-mo-phong-up-2-2.jpg " alt=" ">
+                                                    </div>
+                                                    <div class="text_icon">
+                                                        <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                        <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                    </div>
+                                                    <div class="info_price">
+                                                        <div>
+                                                            <span><br>Giá: 10.00 đ</i></span>
+                                                            <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                        </div>
+                                                        <div class="icon_in_item">
+                                                            <div class="like">
+                                                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="add">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide_do_uong">
+                                    <ul class="list_banh_tuoi" name="slides_banh_tuoi">
+                                        <li class="item_banh_tuoi">
+                                            <a href="# ">
+                                                <div>
+                                                    <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                                </div>
+                                                <div class="text_icon">
+                                                    <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                    <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                </div>
+                                                <div class="info_price">
+                                                    <div>
+                                                        <span><br>Giá: 10.00 đ</i></span>
+                                                        <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                    </div>
+                                                    <div class="icon_in_item">
+                                                        <div class="like">
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="add">
+                                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <a href="# ">
+                                                <div>
+                                                    <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                                </div>
+                                                <div class="text_icon">
+                                                    <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                    <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                </div>
+                                                <div class="info_price">
+                                                    <div>
+                                                        <span><br>Giá: 10.00 đ</i></span>
+                                                        <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                    </div>
+                                                    <div class="icon_in_item">
+                                                        <div class="like">
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="add">
+                                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <a href="# ">
+                                                <div>
+                                                    <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                                </div>
+                                                <div class="text_icon">
+                                                    <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                    <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                </div>
+                                                <div class="info_price">
+                                                    <div>
+                                                        <span><br>Giá: 10.00 đ</i></span>
+                                                        <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                    </div>
+                                                    <div class="icon_in_item">
+                                                        <div class="like">
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="add">
+                                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <a href="# ">
+                                                <div>
+                                                    <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                                </div>
+                                                <div class="text_icon">
+                                                    <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                    <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                </div>
+                                                <div class="info_price">
+                                                    <div>
+                                                        <span><br>Giá: 100.000 đ</i></span>
+                                                        <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                    </div>
+                                                    <div class="icon_in_item">
+                                                        <div class="like">
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="add">
+                                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="item_banh_tuoi">
+                                            <a href="# ">
+                                                <div>
+                                                    <img src="https://chupanh.vn/wp-content/uploads/2017/12/concept-chup-anh-mon-an-chum-anh-banh-ngot-nhin-la-me-ma00133.jpg" alt=" ">
+                                                </div>
+                                                <div class="text_icon">
+                                                    <span>CARAMEL AND CHOCOLATE CAKE MOUSSE VUÔNG</span>
+                                                    <!-- <span class="info_price"><br> Giá: 10.00 đ</span> -->
+                                                </div>
+                                                <div class="info_price">
+                                                    <div>
+                                                        <span><br>Giá: 10.00 đ</i></span>
+                                                        <span class="danh_gia"><br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                                                    </div>
+                                                    <div class="icon_in_item">
+                                                        <div class="like">
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="add">
+                                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+<<<<<<< HEAD
+                            </li>
+                        </ul>
+                    </DIV>
+=======
+>>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
+                </section>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div class="banh_tuoi_moi_ngay_container">
+                    <h3>
+                        <a href="" id='test'>SẢN PHẨM NỔI BẬT</a>
+                    </h3>
+                </div>
+                <div class="container_Sp_noi_bat">
+                    <ul class="Sp_noi_bats" id="id_Sp_noi_bat">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+<<<<<<< HEAD
+        <hr>
+        <div>
+            <div class="banh_tuoi_moi_ngay_container">
+                <h3>
+                    <a href="" id='test'>SẢN PHẨM NỔI BẬT</a>
+                </h3>
+            </div>
+            <div class="container_Sp_noi_bat">
+                <ul class="Sp_noi_bats" id="id_Sp_noi_bat">
+
+                </ul>
+            </div>
+        </div>
+        <HR>
+        <div class="container_khuyenmai">
+            <div class="haeder_banh_tuoi_moi_ngay">
+                <h3>
+                    <a href="#">THÔNG TIN KHUYẾN MÃI</a>
+                </h3>
+            </div>
+            <div>
+                <div class="splide" role="group" aria-label="Splide Basic HTML Example" id="slide2">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="item_khuyen_mai">
+                                    <div class="container_item_khuyen_mai">
+                                        <div class="khuyen_mai_image">
+                                            <a href="">
+                                                <img src="https://file.hstatic.net/1000313040/article/key_800x1200_v4_1fa51a116f49453c99e65635366c1796_large.png" alt="" srcset="">
+                                                <div class="">
+                                                    <h4>Khuyến mãi qua tặng mừng 8/3</h4>
+                                                </div>
+                                                <div class="icon_khuyen_mai">
+                                                    Khuyến Mãi
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="Khuyen_mai_text">
+                                            Người cũ thì mình đoán chắc rằng hầu như ai cũng có. Nhưng bỏ qua quá khứ và chỉ sống với hiện tại mới là điều một người có gia đình nên làm. Mình nghĩ như vậy không biết có giống suy nghĩ của mọi người không? Hôm nay, con ngủ sớm, nhìn con ngủ trong
+                                            vòng tay mình lại suy nghĩ rất nhiều. Về người chồng, người bố của con mình. Bọn mình quen nhau khi cả 2 đã ra trường đi làm, công tác tại 2 cơ quan nhà nước khác nhau. Quen nhau vài tháng rồi xác định tiến
+                                            tới hôn nhân. Mình cũng có một mối tình trước khi đến với chồng mình, và chồng mình cũng vậy.
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="item_khuyen_mai">
+                                    <div class="container_item_khuyen_mai">
+                                        <div class="khuyen_mai_image">
+                                            <a href="">
+                                                <img src="https://file.hstatic.net/1000313040/article/key_800x1200_v4_1fa51a116f49453c99e65635366c1796_large.png" alt="" srcset="">
+                                                <div class="">
+                                                    <h4>Khuyến mãi qua tặng mừng 8/3</h4>
+                                                </div>
+                                                <div class="icon_khuyen_mai">
+                                                    Khuyến Mãi
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="Khuyen_mai_text">
+                                            Người cũ thì mình đoán chắc rằng hầu như ai cũng có. Nhưng bỏ qua quá khứ và chỉ sống với hiện tại mới là điều một người có gia đình nên làm. Mình nghĩ như vậy không biết có giống suy nghĩ của mọi người không? Hôm nay, con ngủ sớm, nhìn con ngủ trong
+                                            vòng tay mình lại suy nghĩ rất nhiều. Về người chồng, người bố của con mình. Bọn mình quen nhau khi cả 2 đã ra trường đi làm, công tác tại 2 cơ quan nhà nước khác nhau. Quen nhau vài tháng rồi xác định tiến
+                                            tới hôn nhân. Mình cũng có một mối tình trước khi đến với chồng mình, và chồng mình cũng vậy.
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="item_khuyen_mai">
+                                    <div class="container_item_khuyen_mai">
+                                        <div class="khuyen_mai_image">
+                                            <a href="">
+                                                <img src="https://file.hstatic.net/1000313040/article/key_800x1200_v4_1fa51a116f49453c99e65635366c1796_large.png" alt="" srcset="">
+                                                <div class="">
+                                                    <h4>Khuyến mãi qua tặng mừng 8/3</h4>
+                                                </div>
+                                                <div class="icon_khuyen_mai">
+                                                    Khuyến Mãi
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="Khuyen_mai_text">
+                                            Người cũ thì mình đoán chắc rằng hầu như ai cũng có. Nhưng bỏ qua quá khứ và chỉ sống với hiện tại mới là điều một người có gia đình nên làm. Mình nghĩ như vậy không biết có giống suy nghĩ của mọi người không? Hôm nay, con ngủ sớm, nhìn con ngủ trong
+                                            vòng tay mình lại suy nghĩ rất nhiều. Về người chồng, người bố của con mình. Bọn mình quen nhau khi cả 2 đã ra trường đi làm, công tác tại 2 cơ quan nhà nước khác nhau. Quen nhau vài tháng rồi xác định tiến
+                                            tới hôn nhân. Mình cũng có một mối tình trước khi đến với chồng mình, và chồng mình cũng vậy.
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Thong_tin_cua_hang">
+            <div class="header_thong_tin_cua_hang">
+                <h2>Thông tin cửa hàng</h2>
+                <span>
+                    Chào mừng đến với của hàng 
+                </span>
+            </div>
+            <div class="Noi_dung_thong_tin">
+                <img src="https://maylambanhmi.net/wp-content/uploads/2018/09/TB-banh.jpg" alt="">
+                <div class="text_thong_tin_cua_hang">
+                    Người cũ thì mình đoán chắc rằng hầu như ai cũng có. Nhưng bỏ qua quá khứ và chỉ sống với hiện tại mới là điều một người có gia đình nên làm. Mình nghĩ như vậy không biết có giống suy nghĩ của mọi người không? Hôm nay, con ngủ sớm, nhìn con ngủ trong
+                    vòng tay mình lại suy nghĩ rất nhiều. Về người chồng, người bố của con mình. Bọn mình quen nhau khi cả 2 đã ra trường đi làm, công tác tại 2 cơ quan nhà nước khác nhau. Quen nhau vài tháng rồi xác định tiến tới hôn nhân. Mình cũng
+                    có một mối tình trước khi đến với chồng mình, và chồng mình cũng vậy. Nhưng trước khi đến với chồng mình thì mình xác định rất rõ ràng, mình xoá tất cả những gì liên quan tới người cũ, ảnh, tin nhắn, số điện thoại, không liên quan
+                    đến bất kì gì cả. Mình tưởng chồng mình cũng vậy, nhưng KHÔNG. Quen nhau được một thời gian, thì mình phát hiện anh gọi điện chúc mưng sinh nhật người cũ. Cũng chẳng có gì đáng nói nếu như anh k quên sinh nhật của mình. Là năm đầu
+                    tiên lấy nhau, anh đã không nhớ ngày sinh nhật của vợ. Không nhớ và không nhớ đến tận hai lần.
+                </div>
+            </div>
+        </div>
+        <div class="Phan_cuoi">
+            <div class="image_phan_cuoi">
+                <img src="https://hufa.edu.vn/banh-sinh-nhat-dep-nhat-2015/imager_2021.jpg" alt="">
+            </div>
+            <div class="text_phan_cuoi">
+                <div>
+                    ANH HÒA BAKERY Tên đơn vị: Công ty Cổ phần Bánh ngọt Anh Hòa Số giấy chứng nhận đăng ký kinh doanh: 0104802706 Ngày cấp: 21/07/2010 Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Hà Nội
+                </div>
+                <div>
+                    ANH HÒA BAKERY Tên đơn vị: Công ty Cổ phần Bánh ngọt Anh Hòa Số giấy chứng nhận đăng ký kinh doanh: 0104802706 Ngày cấp: 21/07/2010 Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Hà Nội
+                </div>
+                <div>
+                    ANH HÒA BAKERY Tên đơn vị: Công ty Cổ phần Bánh ngọt Anh Hòa Số giấy chứng nhận đăng ký kinh doanh: 0104802706 Ngày cấp: 21/07/2010 Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Hà Nội
+                </div>
+            </div>
+
+        </div>
+
+=======
+>>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
+        <script>
+            new Splide('.splide', {
+                type: "loop",
+                autoplay: true,
+                perPage: 1
+            }).mount();
+<<<<<<< HEAD
+            var els = document.getElementById("slide2");
+            new Splide(els, {
+                type: 'loop',
+                perPage: 3,
+                focus: 'center',
+                autoplay: true,
+            }).mount()
+=======
+>>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+<<<<<<< HEAD
+    </div>
+=======
+>>>>>>> f09a06f31607d56c5ab66f6b2acc0cbe83ab105f
+</body>
+
+</html>
