@@ -1,382 +1,395 @@
-            html,
-            body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-            }
-            
-            h3 {
-                margin-bottom: 15px;
-            }
-            
-            .container {
-                width: 100%;
-                height: 100%;
-                background-color: #ffffff;
-                margin: 0px;
-                max-width: 100%;
-                padding: 0px;
-            }
-            
-            .containerTabbar {
-                align-items: center;
-            }
-            
-            .itemTabbar {
-                margin-left: 10px;
-                flex: 1;
-            }
-            
-            .itemTabbarcontainer {
-                display: flex;
-                margin-left: 30px;
-                margin-right: 30px;
-            }
-            
-            .image_in_slide {
-                width: 100%;
-                max-height: 400px;
-            }
-            /* chọn nhanh các mục */
-            
-            .qicklink_icon {
-                background-color: aliceblue;
-                padding: 0px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border: #e40909;
-            }
-            
-            .qick_link_icon_flex {
-                display: flex;
-                flex-direction: row;
-                height: 25%;
-                width: 100%;
-                margin-left: 5%;
-                margin-right: 5%;
-            }
-            
-            .qick_link_item {
-                background-color: #c2c4bf;
-                height: 90px;
-                width: 20%;
-                margin: 10px;
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                border-radius: 5%;
-                flex-wrap: wrap;
-                justify-content: center;
-                flex: 20%;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
-            
-            .qick_link_item:hover {
-                background-color: white;
-                box-shadow: none;
-            }
-            
-            .icon {
-                width: 50px;
-                height: 50px;
-            }
-            
-            .text_icon {
-                color: black;
-                margin-top: 10px;
-            }
-            
-            a:link {
-                text-decoration: none;
-            }
-            
-            .container_qicklink {
-                width: 100%;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                margin-left: 0px;
-            }
-            
-            .icon_qick_link img:hover {
-                transition: transform 0.2s linear;
-                transform: translateY(-10px);
-            }
-            /* bánh tươi mỗi ngày */
-            
-            .banh_tuoi_moi_ngay {
-                width: 100%;
-                max-width: 100%;
-            }
-            
-            .banh_tuoi_moi_ngay_container {
-                margin-left: 5%;
-                margin-right: 5%;
-                height: 25%;
-            }
-            
-            .haeder_banh_tuoi_moi_ngay {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-            }
-            
-            .container_banhtuoi {
-                position: relative;
-            }
-            
-            .container_item_banh_tuoi {
-                width: 100%;
-            }
-            
-            .slide_banh_tuoi {
-                display: none;
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                animation: none;
-            }
-            
-            .slide_banh_tuoi:hover {
-                animation: none;
-            }
-            
-            .list_banh_tuoi {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-            }
-            
-            .item_banh_tuoi {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                margin: 10px;
-                max-width: min-content;
-            }
-            
-            .item_banh_tuoi img {
-                width: 15vw;
-                border-radius: 5px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                padding: 1px;
-                height: 250px;
-            }
-            
-            .item_banh_tuoi img:hover {
-                transition: transform 0.2s linear;
-                transform: translateY(-10px);
-            }
-            
-            .slide_do_uong {
-                top: 0px;
-                left: 0px;
-                animation: none;
-            }
-            
-            .slide_do_uong:hover {
-                animation: none;
-            }
-            
-            .container_do_uong {
-                /* height: 70vh; */
-                margin-left: 5%;
-                margin-right: 5%;
-                margin-bottom: 5vh;
-                max-height: 530px;
-                min-width: 850px;
-            }
-            
-            .info_price {
-                color: #e40909;
-                font-weight: bold;
-                font-size: 100%;
-                margin-top: -15px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-            
-            .danh_gia {
-                color: yellow;
-            }
-            
-            .danh_gia i:hover {
-                transform: translateY(-5px);
-            }
-            
-            .like,
-            .add {
-                background-color: #c2c4bf;
-                width: 30px;
-                border-radius: 50%;
-                height: 30px;
-                text-align: center;
-                justify-content: center;
-                margin: 5px;
-                color: #555050;
-                min-width: 30px;
-                min-height: 30px;
-                font-size: 20px;
-            }
-            
-            .icon_in_item {
-                font-weight: bold;
-                font-size: 100%;
-                margin-top: 10%;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                /* text-align: center; */
-                justify-items: center;
-                flex-wrap: nowrap;
-                align-items: center;
-            }
-            
-            .icon_in_item :hover {
-                background-color: rgb(65, 60, 60);
-                color: #e40909;
-            }
-            
-            .container_Sp_noi_bat {
-                margin-top: 0px;
-                margin-left: 5%;
-                margin-right: 5%;
-            }
-            
-            .khuyen_mai_image {
-                position: relative;
-                margin-bottom: 5px;
-            }
-            
-            .khuyen_mai_image a {
-                display: block;
-                overflow: hidden;
-            }
-            
-            .icon_khuyen_mai {
-                padding: 0px 5px 5px 5px;
-                position: absolute;
-                right: 5px;
-                top: 5px;
-                background: #c0c906;
-                border-radius: 10px;
-                overflow: hidden;
-            }
-            
-            .Sp_noi_bats {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-            
-            .container_item_khuyen_mai {
-                text-align: justify;
-            }
-            
-            .item_khuyen_mai {
-                margin: 20px;
-                background-color: #c2c4bf;
-                border-radius: 10px;
-            }
-            
-            .item_khuyen_mai img {
-                width: 100%;
-                height: 300px;
-            }
-            
-            .item_khuyen_mai img :hover {
-                width: 110%;
-                height: 300px;
-            }
-            
-            .container_khuyenmai {
-                margin-left: 5%;
-                margin-right: 5%;
-            }
-            
-            .Noi_dung_thong_tin {
-                display: flex;
-                flex-direction: row;
-                align-items: start;
-                justify-content: space-between;
-                margin-top: 5%;
-                align-self: center;
-            }
-            
-            .Noi_dung_thong_tin img {
-                height: 50vh;
-                width: 50%;
-                border-radius: 10px;
-            }
-            
-            .text_thong_tin_cua_hang {
-                text-align: justify;
-                margin-left: 20px;
-                margin-right: 20px;
-                width: 50%;
-            }
-            
-            .Thong_tin_cua_hang {
-                margin-left: 5%;
-                margin-right: 5%;
-                margin-top: 20%;
-            }
-            
-            .header_thong_tin_cua_hang {
-                text-align: center;
-                font: optional;
-                font-weight: bold;
-                color: brown;
-                font-size: 30px;
-            }
-            
-            .Phan_cuoi {
-                position: relative;
-            }
-            
-            .Khuyen_mai_text {
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            
-            .khuyen_mai_image h4 {
-                margin-left: 5%;
-                margin-right: 5%;
-            }
-            
-            .image_phan_cuoi img {
-                width: 100%;
-                height: 60vh;
-                position: absolute;
-            }
-            
-            .text_phan_cuoi {
-                position: absolute;
-                color: white;
-                display: flex;
-                flex-direction: row;
-            }
-            
-            @keyframes line-left {
-                from {
-                    transform: translateX(100%);
-                }
-                to {
-                    transform: translateX(0%);
-                }
-            }
-            
-            @keyframes line-right {
-                from {
-                    transform: translateX(-100%);
-                }
-                to {
-                    transform: translateX(0%);
-                }
-            }
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    
+    h3 {
+        margin-bottom: 15px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        margin: 0px;
+        max-width: 100%;
+        padding: 0px;
+    }
+    
+    .containerTabbar {
+        align-items: center;
+    }
+    
+    .itemTabbar {
+        margin-left: 10px;
+        flex: 1;
+    }
+    
+    .itemTabbarcontainer {
+        display: flex;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .image_in_slide {
+        width: 100%;
+        max-height: 400px;
+    }
+    /* chọn nhanh các mục */
+    
+    .qicklink_icon {
+        background-color: aliceblue;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #e40909;
+    }
+    
+    .qick_link_icon_flex {
+        display: flex;
+        flex-direction: row;
+        height: 25%;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .qick_link_item {
+        background-color: #c2c4bf;
+        height: 90px;
+        width: 20%;
+        margin: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 20%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .qick_link_item:hover {
+        background-color: white;
+        box-shadow: none;
+    }
+    
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .text_icon {
+        color: black;
+        margin-top: 10px;
+    }
+    
+    a:link {
+        text-decoration: none;
+    }
+    
+    .container_qicklink {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    
+    .icon_qick_link img:hover {
+        transition: transform 0.2s linear;
+        transform: translateY(-10px);
+    }
+    /* bánh tươi mỗi ngày */
+    
+    .banh_tuoi_moi_ngay {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .banh_tuoi_moi_ngay_container {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 25%;
+    }
+    
+    .haeder_banh_tuoi_moi_ngay {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container_banhtuoi {
+        position: relative;
+    }
+    
+    .container_item_banh_tuoi {
+        width: 100%;
+    }
+    
+    .slide_banh_tuoi {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        animation: none;
+    }
+    
+    .slide_banh_tuoi:hover {
+        animation: none;
+    }
+    
+    .list_banh_tuoi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .item_banh_tuoi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 10px;
+        max-width: min-content;
+    }
+    
+    .item_banh_tuoi img {
+        width: 15vw;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 1px;
+        height: 250px;
+        margin-top: 10px;
+    }
+    
+    .item_banh_tuoi img:hover {
+        transition: transform 0.2s linear;
+        transform: translateY(-10px);
+    }
+    
+    .slide_do_uong {
+        top: 0px;
+        left: 0px;
+        animation: none;
+    }
+    
+    .slide_do_uong:hover {
+        animation: none;
+    }
+    
+    .container_do_uong {
+        /* height: 70vh; */
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5vh;
+        max-height: 530px;
+        min-width: 850px;
+    }
+    
+    .info_price {
+        color: #e40909;
+        font-weight: bold;
+        font-size: 100%;
+        margin-top: -15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .danh_gia {
+        color: yellow;
+    }
+    
+    .danh_gia i:hover {
+        transform: translateY(-5px);
+    }
+    
+    .like,
+    .add {
+        background-color: #c2c4bf;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        text-align: center;
+        justify-content: center;
+        margin: 5px;
+        color: #555050;
+        min-width: 30px;
+        min-height: 30px;
+        font-size: 20px;
+    }
+    
+    .icon_in_item {
+        font-weight: bold;
+        font-size: 100%;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* text-align: center; */
+        justify-items: center;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .icon_in_item :hover {
+        background-color: rgb(65, 60, 60);
+        color: #e40909;
+    }
+    
+    .container_Sp_noi_bat {
+        margin-top: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .khuyen_mai_image {
+        position: relative;
+        margin-bottom: 5px;
+    }
+    
+    .khuyen_mai_image a {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .icon_khuyen_mai {
+        padding: 0px 5px 5px 5px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        background: #c0c906;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .Sp_noi_bats {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .container_item_khuyen_mai {
+        text-align: justify;
+    }
+    
+    .item_khuyen_mai {
+        margin: 20px;
+        background-color: #c2c4bf;
+        border-radius: 10px;
+    }
+    
+    .item_khuyen_mai img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .item_khuyen_mai img :hover {
+        width: 110%;
+        height: 300px;
+    }
+    
+    .container_khuyenmai {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .Noi_dung_thong_tin {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+        margin-top: 5%;
+        align-self: center;
+    }
+    
+    .Noi_dung_thong_tin img {
+        height: 50vh;
+        width: 50%;
+        border-radius: 10px;
+    }
+    
+    .text_thong_tin_cua_hang {
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 50%;
+    }
+    
+    .Thong_tin_cua_hang {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
+    }
+    
+    .text_icon span {
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 20px;
+        line-height: 20px;
+        color: #333333;
+        margin-top: 10px
+    }
+    
+    .header_thong_tin_cua_hang {
+        text-align: center;
+        font: optional;
+        font-weight: bold;
+        color: brown;
+        font-size: 30px;
+    }
+    
+    .Phan_cuoi {
+        position: relative;
+    }
+    
+    .Khuyen_mai_text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .khuyen_mai_image h4 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .image_phan_cuoi img {
+        width: 100%;
+        height: 60vh;
+        position: absolute;
+    }
+    
+    .text_phan_cuoi {
+        position: absolute;
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    @keyframes line-left {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0%);
+        }
+    }
+    
+    @keyframes line-right {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0%);
+        }
+    }
