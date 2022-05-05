@@ -17,56 +17,11 @@ window.addEventListener("load", () => {
     </g>
     </g>
     </svg></div>`
-    slide_banh_tuoi = () => {
-        let indexSlide = 0
-        const btn_left = document.querySelector("#btn_left_slides_banh_tuoi")
-        const btn_right = document.querySelector("#btn_right_slides_banh_tuoi")
-        slides = document.querySelectorAll(".slide_banh_tuoi")
-        slides[indexSlide].style.display = "block"
-        slides[indexSlide].style.position = "relative"
-        let is_Auto_slider = false
-
-        function showSlise(n) {
-            let i = 0
-            if (n >= slides.length) indexSlide = 0
-            if (n < 0) indexSlide = slides.length - 1
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none"
-                slides[indexSlide].style.position = "absolute"
-            }
-            slides[indexSlide].style.display = "block"
-            slides[indexSlide].style.position = "relative"
-                // setTimeout(() => {
-                //     if (is_Auto_slider) {
-                //         indexSlide--
-                //         for (i = 0; i < slides.length; i++) {
-                //             slides[i].style.animation = "1s line-left"
-                //         }
-                //         showSlise(indexSlide)
-                //     }
-                // }, 5000)
-        }
-        btn_left.addEventListener("click", () => {
-            is_Auto_slider = !is_Auto_slider
-            indexSlide++
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.animation = "0.5s line-right"
-            }
-            showSlise(indexSlide)
-        });
-        btn_right.addEventListener("click", () => {
-            is_Auto_slider = !is_Auto_slider
-            indexSlide--
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.animation = "0.5s line-left"
-            }
-            showSlise(indexSlide)
-        })
-    }
     loadElemet_banh_tuoi = () => {
         Banhs = document.getElementById("id_Sp_noi_bat")
+        slide_do_uong1 = document.getElementById("slide_do_uong_1");
+        var s = ""
         var danhgia = ''
-        s = ""
         fetch("data.json")
             .then(response => response.json())
             .then((json) => {
@@ -96,7 +51,6 @@ window.addEventListener("load", () => {
             });
     }
     loadElemet_banh_tuoi();
-    slide_banh_tuoi();
 })
 
 function setLike(item) {

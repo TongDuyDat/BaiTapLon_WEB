@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js%22%3E"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="login.css">
+   <script src="login.js"></script>
+   <title>Document</title>
+</head>
+<body>
+   <h2>Sign in/up Form</h2>
+   <div class="container" id="container">
+       <div class="form-container sign-up-container">
+           <div class="form">
+               <h1>Create Account</h1>
+               <div class="social-container">
+                   <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                   <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+               <span>or use your email for registration</span>
+               <input name="txtUsername" type="text" placeholder="Name" />
+               <input name="txtEmail" type="email" placeholder="Email" />
+               <input name="txtPassword" type="password" placeholder="Password" />
+               <button>Sign Up</button>
+            </div>
+       </div>
+       <div class="form-container sign-in-container">
+           <div action="../Home/Home.html" class="form">
+
+               <h1>Sign in</h1>
+               <div class="social-container">
+                   <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                   <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+               <span>or use your account</span>
+               <input name="txtUsername" id="tdn" type="email" placeholder="Email" />
+               <input name="txtPassword" id="mk" type="password" placeholder="Password" />
+               <a href="#">Forgot your password?</a>
+               <button onclick="login()" href="../Home/Home.html" >Sign In</button>
+           </div>
+       </div>
+       <div class="overlay-container">
+           <div class="overlay">
+               <div class="overlay-panel overlay-left">
+                   <h1>Welcome Back!</h1>
+                   <p>To keep connected with us please login with your personal info</p>
+                   <button class="ghost" id="signIn">Sign In</button>
+               </div>
+               <div class="overlay-panel overlay-right">
+                   <h1>Welcome to Bakery Coffee!</h1><br>
+                  <!--<image  id=logo src="../../278271242_1169839970485833_3944541068730565107_n.png"> !--> 
+                   <p>Enter your personal details and start journey with us</p>
+                   <button class="ghost" id="signUp">Sign Up</button>
+               </div>
+           </div>
+       </div>
+   </div>
+</body>
+</html>  
